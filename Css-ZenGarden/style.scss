@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Corben:200,300,400,700);
+@import url(assets/images/);
+
+$headings-font-family:Corben;
+$font-family:Corben;
+$font-size:10px/14px;
+
+$primary:#bed6d5;
+$sea:#7ebcfa;
+$agree:#28A745;
+$sun:#FFC107;
+$info:#007BFF;
+$warning:#0DE2EA;
+$sand:#dec271;
+$dark:#081f37;
+$background-gradient:#c5deea, #066dab, horizontal;
+$background-image:left top, #c5deea 0%,#8abbd7 31%,#066dab 100%;
+$btn-border-radius:.25rem;
+$padding:1rem;
+$enable-gradients:true;
+$spacer:1.2rem;
+$border-width:3px;
+$btn-border-radius:1.35rem;
+
+html {
+	margin: 0;
+	padding: 0;
+    }
+body {
+    font: $font-family $font-size;
+    color: $dark;
+    background: $primary no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
+  }
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    background: url(assets/images/out_of_office.jpeg) no-repeat right top;
+    padding: 200px 0px 0px 0px;
+    margin: 0px auto;
+} 
+.page-wrapper {
+    color: $info;
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+}
+h1 {
+    font-size: 3.2em;
+    color:$info;
+    }
+h2 {
+    font-size: 2.8em;
+    color:$info; 
+}
+h3 {
+    font: italic normal 2em $font-family;
+    letter-spacing: 1px;
+    color:$sea;
+}
+P {
+margin-top: 0;
+text-align: justify;
+}
+a:link{
+    color: $info;
+    font-weight: 400;
+}
+a:visited {
+    color: $sun;
+    font-weight: 300;
+}
+a:hover {
+    font-weight: 600;
+    color: $agree;
+}
